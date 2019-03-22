@@ -1,0 +1,17 @@
+<!--pages/index/index.wxml-->
+<view class="swiper-container">
+  <swiper indicator-dots="{{indicatorDots}}" 
+     autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+     <block wx:for="{{bannerUrls}}" wx:key="unique">
+       <swiper-item class="banner">
+          <image src="{{item}}" class="slide-image" bintap="swipclick"/>
+       </swiper-item>
+     </block>
+  </swiper>
+</view>
+
+  <!-- //滑动进度条控制滚动过渡时间
+  <slider bindchange="durationChange" show-value min="500" max="2000"></slider> -->
+
+  
+

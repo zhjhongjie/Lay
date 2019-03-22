@@ -1,0 +1,4 @@
+<!--pages/video/video.wxml-->
+<view class="video">
+<image src="../images/tab_2.jpg" class="img_video"></image>
+</view>

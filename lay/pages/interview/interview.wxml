@@ -1,0 +1,4 @@
+<!--pages/interview/interview.wxml-->
+<view class="interView">
+<image src="../images/tab_3.jpg" class="img_intertView"></image>
+</view>

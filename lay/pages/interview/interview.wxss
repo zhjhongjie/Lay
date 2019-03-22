@@ -1,0 +1,5 @@
+/* pages/interview/interview.wxss */
+.intertView{
+  width: 100%;
+  height: 100%;
+}

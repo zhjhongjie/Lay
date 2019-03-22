@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/music/music",
+    "pages/video/video",
+    "pages/interview/interview"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor":"#c3aaf1",
+    "nacigationBarTitleText":"WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#8a8a8a",
+    "selectedColor":"#9a13e8",
+    "borderStyle":"black",
+    "list":[{
+      "selectedIconPath":"images/tab_index_fill.png",
+      "iconPath":"images/tab_index.png",
+      "pagePath":"pages/index/index",
+      "text":"首页"
+    },{
+      "selectedIconPath": "images/tab_music_fill.png",
+      "iconPath": "images/tab_music.png",
+      "pagePath": "pages/music/music",
+      "text": "音乐"
+    },{
+      "selectedIconPath": "images/tab_video_fill.png",
+      "iconPath": "images/tab_video.png",
+      "pagePath": "pages/video/video",
+      "text": "视频"
+    },{
+      "selectedIconPath": "images/tab_interview_fill.png",
+      "iconPath": "images/tab_interview.png",
+      "pagePath": "pages/interview/interview",
+      "text": "采访"
+    }]
+  }
+  }

@@ -1,0 +1,4 @@
+<!--pages/music/music.wxml-->
+<view class="music">
+<image src="../images/tab_1.jpg" class="img_music"></image>
+</view>
